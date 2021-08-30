@@ -12,7 +12,7 @@ class App extends React.Component {
   }
   render () {
     return (
-      <main className="text-gray-300 bg-green-800 font-sans">
+      <main className="text-white bg-primary-green font-sans">
         <Navbar />
         <About />
         <Projects />
