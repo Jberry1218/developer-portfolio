@@ -1,9 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Academics from "./components/Academics";
+import AppBody from "./components/AppBody";
 
 
 class App extends React.Component {
@@ -12,12 +9,9 @@ class App extends React.Component {
   }
   render () {
     return (
-      <main className="text-white bg-primary-green font-sans">
+      <main className="text-white bg-cream font-sans">
         <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Academics />
+        <AppBody />
       </main>
     )
   }

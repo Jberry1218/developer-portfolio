@@ -51,7 +51,7 @@ class Projects extends React.Component {
         return (
             <section id="projects-section" className="text-deep-blue relative border-double border-t-8 border-deep-blue mx-10">
                 <a id="projects" className="absolute -top-12"></a>
-            <div className="container px-10 py-10 mx-auto text-center">
+            <div className="container px-0 sm-px-10 py-10 mx-auto text-center">
               <div className="flex flex-col w-full">
                 <CodeIcon className="mx-auto w-10 mb-4" />
                 <h1 className="text-4xl mb-4 font-medium">
@@ -68,7 +68,7 @@ class Projects extends React.Component {
                     key={project.video}
                     className="lg:w-1/2 w-100 px-4 pb-8"
                     target="_blank">
-                    <div className="flex h-80 relative">
+                    <div className="flex h-80 relative border-8 border-deep-green">
                       <video
                         className="absolute inset-0 w-full h-full object-fill object-center"
                         playsinline autoplay muted loop

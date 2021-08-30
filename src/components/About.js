@@ -19,9 +19,9 @@ class About extends React.Component {
                             I am currently seeking an entry-level web development role.  
                         </p>
                     </div>
-                    <div className="flex flex-col md:ml-20 justify-center">
+                    <div className="flex flex-col md:ml-20 justify-center border-4 border-deep-green py-5 px-5 bg-cream rounded-md">
                         <div>
-                            <img className="object-contain" alt="headshot" src="./john-berry.png"></img>
+                            <img className="object-contain border-2 border-deep-green rounded bg-light-green" alt="headshot" src="./john-berry.png"></img>
                         </div>
                         <div className="flex justify-center mt-3">
                             <a href="https://www.linkedin.com/in/jonathan-berry-374662163/" target="_blank" className="border-0 mt-1 py-1 hover:bg-cream rounded">
@@ -33,7 +33,7 @@ class About extends React.Component {
                         </div>
                         <div className="flex justify-center mt-3">
                             <a href="John_Berry_Resume.pdf" download="John_Berry_Resume.pdf" target="__blank">
-                                <button className="flex border border-deep-blue hover:bg-cream text-deep-blue font-bold py-2 px-4 rounded">
+                                <button className="flex border border-deep-green bg-deep-green hover:bg-deep-blue text-cream font-bold py-2 px-4 rounded">
                                     <img src="./download.png" alt="download" className="w-6 mr-2"></img>
                                     Resume
                                 </button>

@@ -90,7 +90,7 @@ class Skills extends React.Component {
                     <div className="flex flex-wrap sm:mx-auto sm:mb-2">
                     {primarySkills.map((skill) => (
                         <div key={skill.name} className="p-2 w-1/2 md:w-1/3 lg:w-1/4">
-                            <div className="bg-cream rounded flex p-4 h-full items-center justify-center group hover:bg-white">
+                            <div className="bg-cream rounded flex p-4 h-full items-center justify-center group hover:bg-white border-4 border-deep-green">
                                 <img alt={skill.name} src={skill.image} className="relative group-hover:opacity-10">
                                 </img>
                                 <h2 className="absolute text-2xl text-deep-blue font-medium opacity-0 group-hover:opacity-100">{skill.name}</h2>
@@ -102,7 +102,7 @@ class Skills extends React.Component {
                     <div className="flex flex-wrap sm:mx-auto sm:mb-2">
                     {secondarySkills.map((skill) => (
                         <div key={skill.name} className="p-2 w-1/2 md:w-1/3 lg:w-1/4">
-                            <div className="bg-cream rounded flex p-4 h-full items-center justify-center group hover:bg-white">
+                            <div className="bg-cream rounded flex p-4 h-full items-center justify-center group hover:bg-white border-4 border-deep-green">
                                 <img alt={skill.name} src={skill.image} className="relative group-hover:opacity-10">
                                 </img>
                                 <h2 className="absolute text-2xl text-deep-blue font-medium opacity-0 group-hover:opacity-100">{skill.name}</h2>
