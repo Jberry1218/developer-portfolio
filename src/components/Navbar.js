@@ -55,9 +55,6 @@ class Navbar extends React.Component {
             <a href="#skills" className={ `ml-6 mt-2 hover:text-primary-green ${hiddenNav} md:mr-5 md:ml-2 md:mt-0`}>
               Skills
             </a>
-            <a href="#accomplishments" className={ `ml-6 mt-2 hover:text-primary-green ${hiddenNav} md:mr-5 md:ml-2 md:mt-0`}>
-              Accomplishments
-            </a>
           </nav>
           <a
             href="#contact"

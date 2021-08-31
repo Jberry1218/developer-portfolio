@@ -1,5 +1,5 @@
 import React from "react";
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 
 const primarySkills = [
     {
@@ -75,7 +75,7 @@ class Skills extends React.Component {
         return (
             <section id="skills-section" className="text-deep-blue relative border-double border-t-8 border-deep-blue mx-10">
                 <a id="skills" className="absolute -top-12"></a>
-                <div className="container px-10 py-10 mx-auto text-center">
+                <div className="container sm:px-10 py-10 mx-auto text-center">
                     <div className="text-center mb-10">
                         <ChipIcon className="w-10 inline-block mb-4" />
                         <h1 className="text-4xl mb-4 font-medium">

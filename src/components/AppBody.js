@@ -2,7 +2,7 @@ import React from "react";
 import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Academics from "./Academics";
+import Contact from "./Contact";
 
 class AppBody extends React.Component {
     constructor (props) {
@@ -10,11 +10,11 @@ class AppBody extends React.Component {
     }
     render () {
         return (
-            <div className="bg-primary-green m-4 sm:m-10 rounded-md main-shadow">
+            <div className="bg-light-grey m-4 sm:m-10 rounded-md main-shadow">
                 <About />
                 <Projects />
                 <Skills />
-                <Academics />
+                <Contact />
             </div>
         )
     }

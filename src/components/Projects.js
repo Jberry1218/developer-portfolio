@@ -51,14 +51,14 @@ class Projects extends React.Component {
         return (
             <section id="projects-section" className="text-deep-blue relative border-double border-t-8 border-deep-blue mx-10">
                 <a id="projects" className="absolute -top-12"></a>
-            <div className="container px-0 sm-px-10 py-10 mx-auto text-center">
+            <div className="container sm:px-10 py-10 mx-auto text-center">
               <div className="flex flex-col w-full">
                 <CodeIcon className="mx-auto w-10 mb-4" />
                 <h1 className="text-4xl mb-4 font-medium">
                   My Projects
                 </h1>
                 <p className="mb-4 leading-6">
-                  Below are some of the websites I have deployed
+                  Below are some of the websites I have deployed.
                 </p>
               </div>
               <div className="flex flex-wrap">
