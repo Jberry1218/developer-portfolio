@@ -72,6 +72,8 @@ class Projects extends React.Component {
                       <video
                         className="absolute inset-0 w-full h-full object-fill object-center"
                         playsinline autoplay muted loop
+                        controls="true"
+                        poster="./art-gallery.png"
                         id={`video${project.id}`}
                       >
                         <source src={project.video} type="video/mp4" />
