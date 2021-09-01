@@ -73,9 +73,9 @@ class Skills extends React.Component {
     }
     render () {
         return (
-            <section id="skills-section" className="text-deep-blue relative border-double border-t-8 border-deep-blue mx-10">
+            <section id="skills-section" className="text-deep-blue relative">
                 <a id="skills" className="absolute -top-12"></a>
-                <div className="container sm:px-10 py-10 mx-auto text-center">
+                <div className="container px-2 sm:px-10 py-10 mx-auto text-center">
                     <div className="text-center mb-10">
                         <ChipIcon className="w-10 inline-block mb-4" />
                         <h1 className="text-4xl mb-4 font-medium">
@@ -90,7 +90,7 @@ class Skills extends React.Component {
                     <div className="flex flex-wrap sm:mx-auto sm:mb-2">
                     {primarySkills.map((skill) => (
                         <div key={skill.name} className="p-2 w-1/2 md:w-1/3 lg:w-1/4">
-                            <div className="bg-cream rounded flex p-4 h-full items-center justify-center group hover:bg-white border-4 border-deep-green">
+                            <div className="bg-deep-green rounded flex p-4 h-full items-center justify-center group hover:bg-white border-4 border-primary-green">
                                 <img alt={skill.name} src={skill.image} className="relative group-hover:opacity-10">
                                 </img>
                                 <h2 className="absolute text-2xl text-deep-blue font-medium opacity-0 group-hover:opacity-100">{skill.name}</h2>
@@ -102,7 +102,7 @@ class Skills extends React.Component {
                     <div className="flex flex-wrap sm:mx-auto sm:mb-2">
                     {secondarySkills.map((skill) => (
                         <div key={skill.name} className="p-2 w-1/2 md:w-1/3 lg:w-1/4">
-                            <div className="bg-cream rounded flex p-4 h-full items-center justify-center group hover:bg-white border-4 border-deep-green">
+                            <div className="bg-primary-green rounded flex p-4 h-full items-center justify-center group hover:bg-white border-4 border-deep-green">
                                 <img alt={skill.name} src={skill.image} className="relative group-hover:opacity-10">
                                 </img>
                                 <h2 className="absolute text-2xl text-deep-blue font-medium opacity-0 group-hover:opacity-100">{skill.name}</h2>

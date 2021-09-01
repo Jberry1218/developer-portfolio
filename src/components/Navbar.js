@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 
 class Navbar extends React.Component {
@@ -58,9 +57,8 @@ class Navbar extends React.Component {
           </nav>
           <a
             href="#contact"
-            className={ `inline-flex items-center ml-6 mt-2 mr-auto hover:text-primary-green ${hiddenNav} md:mr-3 md:mt-0`}>
+            className={ `ml-6 mt-2 mr-auto hover:text-primary-green ${hiddenNav} md:mr-3 md:mt-0`}>
             Contact Me
-            <ArrowRightIcon className="w-4 h-4 ml-1" />
           </a>
         </div>
       </header>

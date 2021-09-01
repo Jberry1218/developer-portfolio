@@ -10,7 +10,7 @@ class AppBody extends React.Component {
     }
     render () {
         return (
-            <div className="bg-light-grey m-4 sm:m-10 rounded-md main-shadow">
+            <div className="">
                 <About />
                 <Projects />
                 <Skills />

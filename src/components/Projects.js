@@ -52,16 +52,17 @@ class Projects extends React.Component {
     }
     render () {
         return (
-            <section id="projects-section" className="text-deep-blue relative border-double border-t-8 border-deep-blue mx-10">
+            <section id="projects-section" className="text-white bg-deep-green relative">
                 <a id="projects" className="absolute -top-12"></a>
-            <div className="container sm:px-10 py-10 mx-auto text-center">
+            <div className="container px-2 sm:px-10 py-10 mx-auto text-center">
               <div className="flex flex-col w-full">
                 <CogIcon className="mx-auto w-10 mb-4" />
                 <h1 className="text-4xl mb-4 font-medium">
                   My Projects
                 </h1>
                 <p className="mb-4 leading-6">
-                  Below are some of the websites I have deployed.
+                  Below are some of the websites I have deployed. 
+                  Hover over or click on the boxes below to view the live version of the application or the source code.
                 </p>
               </div>
               <div className="flex flex-wrap">
@@ -69,7 +70,7 @@ class Projects extends React.Component {
                   <div
                     key={project.video}
                     className="lg:w-1/2 w-100 px-4 pb-8">
-                    <div className="flex h-80 relative border-8 border-deep-green">
+                    <div className="flex h-80 relative border-4 border-primary-green">
                       <video
                         className="absolute inset-0 w-full h-full object-fill object-center"
                         playsinline autoplay muted loop
@@ -87,14 +88,14 @@ class Projects extends React.Component {
                         </h1>
                         <p className="mb-3 text-white leading-6">{project.description}</p>
                         <div className="flex justify-center">
-                          <div className="bg-deep-green p-2 hover:bg-white rounded text-white hover:text-primary-green">
+                          <div className="bg-deep-blue border-2 border-deep-green p-2 hover:bg-primary-green rounded text-white">
                             <a className="inline" href={project.website} alt={project.title} target="__blank">
                               <span className="font-medium">
                               View Live Version
                               </span>
                             </a>
                           </div>
-                          <div className="bg-deep-green p-2 hover:bg-white rounded text-white hover:text-primary-green ml-3">
+                          <div className="bg-deep-blue border-2 border-deep-green p-2 hover:bg-primary-green rounded text-white ml-2">
                             <a className="inline" href={project.github} alt={project.title} target="__blank">
                               <span className="font-medium">
                               View On GitHub

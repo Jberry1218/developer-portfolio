@@ -7,9 +7,9 @@ class Contact extends React.Component {
     }
     render () {
         return (
-            <section id="contact-section" className="text-deep-blue relative border-double border-t-8 border-deep-blue mx-10">
+            <section id="contact-section" className="text-deep-blue relative bg-deep-green">
                 <a id="contact" className="absolute -top-12"></a>
-                <div className="container flex mx-auto sm:px-10 py-10 flex-col items-center md:flex-row md:justify-center">
+                <div className="container flex mx-auto px-2 sm:px-10 py-10 flex-col items-center md:flex-row md:justify-center">
                     <div className="items-center w-full md:w-1/2">
                         <img className="" alt="texas" src="./texas.png"></img>
                     </div>

@@ -5,3 +5,33 @@
 .main-shadow {
     box-shadow: 10px 10px 10px #545454;
 }
+
+.run-wobble {
+    animation: run-wobble 4s 1;
+    position: absolute;
+  }
+
+@keyframes run-wobble {
+    0% {
+        left: 0;
+    }
+    10% {
+        left: 0;
+    }
+    35% {   
+        left: 100%;
+    }
+    60% {
+        left: 37.5%;
+        transform: rotate(15deg);
+    }
+    73% {
+        transform: rotate(-30deg);
+    }
+    87% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}  
