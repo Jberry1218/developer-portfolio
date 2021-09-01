@@ -1,5 +1,5 @@
 import React from "react";
-import { CodeIcon } from "@heroicons/react/solid";
+import { CogIcon } from "@heroicons/react/outline";
 
 const projects = [
   {
@@ -53,7 +53,7 @@ class Projects extends React.Component {
                 <a id="projects" className="absolute -top-12"></a>
             <div className="container sm:px-10 py-10 mx-auto text-center">
               <div className="flex flex-col w-full">
-                <CodeIcon className="mx-auto w-10 mb-4" />
+                <CogIcon className="mx-auto w-10 mb-4" />
                 <h1 className="text-4xl mb-4 font-medium">
                   My Projects
                 </h1>

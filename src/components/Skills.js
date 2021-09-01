@@ -39,7 +39,7 @@ const primarySkills = [
         image: "./mongodb.svg"
     },
     {
-        name: "NodeJS",
+        name: "Node.js",
         image: "./nodejs.svg"
     },
 ]
@@ -82,7 +82,7 @@ class Skills extends React.Component {
                         Languages / Technologies
                         </h1>
                         <p className="mb-8 leading-6">
-                        I am primarily a Javascript developer and my current studies / projects focus on the MERN stack. 
+                        I am primarily a Javascript developer, and my current studies and projects focus on the MERN stack. 
                         However, there are several "secondary" technologies, which I have utilized in past projects.
                         </p>
                     </div>
