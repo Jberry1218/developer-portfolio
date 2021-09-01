@@ -9,6 +9,7 @@ const projects = [
     description:
       "GroceryPlanner is a responsive, mobile-first application that allows users to create grocery lists and save recipes, enabling a less cumbersome grocery shopping experience.",
     video: "./grocery-planner.mov",
+    poster: "./grocery-planner.png",
     website: "https://jberry1218-grocery-planner.herokuapp.com/",
     github: "https://github.com/Jberry1218/grocery-planner"
   },
@@ -19,6 +20,7 @@ const projects = [
     description:
       "Path Visualizer provides a visual representation of how different path algorithms traverse a graph in order to find a path from a start node to an end node.",
     video: "./path-visualizer.mov",
+    poster: "./path-visualizer.png",
     website: "https://pedantic-fermat-fea217.netlify.app/",
     github: "https://github.com/Jberry1218/shortest-path-visualizer"
   },
@@ -29,6 +31,7 @@ const projects = [
     description:
       "Art Gallery is a web application that allows users to create images in a paint environment. Users can then share their creations with other users by posting them and can view and like/unlike the posts of other users.",
     video: "./art-gallery.mov",
+    poster: "./art-gallery.png",
     website: "https://jberry1218-art-gallery.herokuapp.com/",
     github: "https://github.com/Jberry1218/art-gallery"
   }
@@ -72,8 +75,7 @@ class Projects extends React.Component {
                       <video
                         className="absolute inset-0 w-full h-full object-fill object-center"
                         playsinline autoplay muted loop
-                        controls="true"
-                        poster="./art-gallery.png"
+                        poster={project.poster}
                         id={`video${project.id}`}
                       >
                         <source src={project.video} type="video/mp4" />
