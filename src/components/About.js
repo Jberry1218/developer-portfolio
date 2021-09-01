@@ -15,9 +15,9 @@ class About extends React.Component {
                         I was born and raised in New Jersey, and I graduated with a degree in mathematics from Williams College in 2016 with cum laude honors.
                         </p>
                         <p className="leading-6 text-deep-blue mb-4">
-                        After college, I spent three years as a product/data analyst for Plymouth Rock, a Boston-based auto and home insurance company.</p>
+                        After college, I spent two years as a product / data analyst at Plymouth Rock, a Boston-based auto and home insurance company.</p>
                         <p className="leading-6 text-deep-blue mb-4">
-                        In 2018, I moved to Austin, Texas and began working for Navidar, a software-focused investment banking firm. I have spent the last three years as an investment banker, advising software companies on M&A and capital raise transactions. </p>
+                        In 2018 I moved to Austin, Texas and began working for Navidar, a software-focused investment banking firm. I have spent the last three years as an investment banker, advising software companies on M&A and capital raise transactions. </p>
                         <p className="leading-6 text-deep-blue mb-4">
                         While working with these software companies, I grew increasingly curious about software development and began studying the subject in my free time. My part-time studies confirmed my passion for web development, so I recently quit my job in finance to develop my technical abilities full-time.</p>
                         <p className="leading-6 text-deep-blue mb-4">

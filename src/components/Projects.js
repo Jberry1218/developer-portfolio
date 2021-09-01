@@ -22,7 +22,7 @@ const projects = [
     video: "./path-visualizer.mov",
     poster: "./path-visualizer.png",
     website: "https://pedantic-fermat-fea217.netlify.app/",
-    github: "https://github.com/Jberry1218/shortest-path-visualizer"
+    github: "https://github.com/Jberry1218/path-visualizer"
   },
   {
     title: "Art Gallery",
@@ -66,11 +66,9 @@ class Projects extends React.Component {
               </div>
               <div className="flex flex-wrap">
                 {projects.map((project) => (
-                  <a
-                    href={project.website}
+                  <div
                     key={project.video}
-                    className="lg:w-1/2 w-100 px-4 pb-8"
-                    target="_blank">
+                    className="lg:w-1/2 w-100 px-4 pb-8">
                     <div className="flex h-80 relative border-8 border-deep-green">
                       <video
                         className="absolute inset-0 w-full h-full object-fill object-center"
@@ -88,14 +86,25 @@ class Projects extends React.Component {
                           {project.title}
                         </h1>
                         <p className="mb-3 text-white leading-6">{project.description}</p>
-                        <a className="inline-block" href={project.github} alt={project.title} target="__blank">
-                          <span className="font-medium text-primary-green hover:text-white">
-                          View On GitHub
-                          </span>
-                        </a>
+                        <div className="flex justify-center">
+                          <div className="bg-deep-green p-2 hover:bg-white rounded text-white hover:text-primary-green">
+                            <a className="inline" href={project.website} alt={project.title} target="__blank">
+                              <span className="font-medium">
+                              View Live Version
+                              </span>
+                            </a>
+                          </div>
+                          <div className="bg-deep-green p-2 hover:bg-white rounded text-white hover:text-primary-green ml-3">
+                            <a className="inline" href={project.github} alt={project.title} target="__blank">
+                              <span className="font-medium">
+                              View On GitHub
+                              </span>
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </a>
+                  </div>
                 ))}
               </div>
             </div>
