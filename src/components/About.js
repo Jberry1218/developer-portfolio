@@ -48,7 +48,9 @@ class About extends React.Component {
                             class="mt-3 text-lg font-bold text-deep-green"
                             onClick={() => this.changeView()}
                             >
-                            Learn more about me
+                            <a href="#about">
+                                Learn more about me
+                            </a>
                             <ArrowRightIcon className="h-4 w-4 ml-1 inline"/>
                         </button>
                     </div>
@@ -73,7 +75,9 @@ class About extends React.Component {
                             onClick={() => this.changeView()}
                             >
                             <ArrowLeftIcon className="h-4 w-4 mr-1 inline"/>
-                            Back
+                            <a href="#about">
+                                Back
+                            </a>
                         </button>
                     </div>
                 </div>
