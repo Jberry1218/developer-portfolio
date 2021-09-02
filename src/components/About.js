@@ -25,10 +25,10 @@ class About extends React.Component {
                             <img src="./avatar.png" alt="logo" className="mx-auto h-16 sm:h-32" />
                         </div>
                         <span class="text-2xl sm:text-5xl mt-3 text-center">
-                            My name is John Berry
+                            My name is John Berry,
                         </span>
                         <span class="text-2xl sm:text-5xl text-center">
-                            And I am an aspiring software engineer
+                            and I am an aspiring software engineer
                         </span>
                         <div className="flex justify-center items-center mt-3">
                             <a href="https://www.linkedin.com/in/jonathan-taylor-berry/" target="_blank" className="border-0 mt-1 py-1 hover:bg-cream rounded">
@@ -45,10 +45,10 @@ class About extends React.Component {
                             </a>
                         </div>
                         <button 
-                            class="mt-3 text-lg"
+                            class="mt-3 text-lg font-bold text-deep-green"
                             onClick={() => this.changeView()}
                             >
-                            Learn More About Me
+                            Learn more about me
                             <ArrowRightIcon className="h-4 w-4 ml-1 inline"/>
                         </button>
                     </div>
@@ -62,14 +62,14 @@ class About extends React.Component {
                         <p className="leading-6 mb-3">
                         After college, I spent two years as a product / data analyst at Plymouth Rock, a Boston-based auto and home insurance company.</p>
                         <p className="leading-6 mb-3">
-                        In 2018 I moved to Austin, Texas and began working for Navidar, a software-focused investment banking firm. I have spent the last three years as an investment banker, advising software companies on M&A and capital raise transactions. </p>
+                        In 2018, I moved to Austin, Texas and began working for Navidar, a software-focused investment banking firm. I have spent the last three years as an investment banker, advising software companies on M&A and capital raise transactions. </p>
                         <p className="leading-6 mb-3">
                         While working with these software companies, I grew increasingly curious about software development and began studying the subject in my free time. My part-time studies confirmed my passion for web development, so I recently quit my job in finance to develop my technical abilities full-time.</p>
                         <p className="leading-6 mb-3">
                         I have completed several independent projects, which you can find below. I have also completed Harvard's CS50X, Harvard's CS50 Web Programming, and five Javascript-focused web development courses offered through freeCodeCamp.</p>
                         <h4 className="text-xl mb-3 font-medium italic">I am actively seeking an entry-level software engineering position in web development. I believe that my professional and academic experience will enable me to become a successful software engineer.</h4> 
                         <button 
-                            class="text-lg"
+                            class="text-lg font-bold text-deep-green"
                             onClick={() => this.changeView()}
                             >
                             <ArrowLeftIcon className="h-4 w-4 mr-1 inline"/>
