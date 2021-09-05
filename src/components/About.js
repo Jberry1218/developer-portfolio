@@ -59,17 +59,19 @@ class About extends React.Component {
                     <div className="container flex flex-col px-2 sm:px-10 py-10 items-center text-center mx-auto">
                         <h3 className="text-2xl mb-3 font-medium">I am an aspiring software engineer</h3> 
                         <p className="leading-6 mb-3">
-                        I was born and raised in New Jersey, and I graduated with a degree in mathematics from Williams College in 2016 with cum laude honors.
+                        I was born and raised in New Jersey, and I graduated with a degree in mathematics from Williams College in 2016 with cum laude honors. 
                         </p>
                         <p className="leading-6 mb-3">
                         After college, I spent two years as a product / data analyst at Plymouth Rock, a Boston-based auto and home insurance company.</p>
                         <p className="leading-6 mb-3">
-                        In 2018, I moved to Austin, Texas and began working for Navidar, a software-focused investment banking firm. I have spent the last three years as an investment banker, advising software companies on M&A and capital raise transactions. </p>
+                        In 2018, I moved to Austin, Texas and began working for Navidar, a software-focused investment banking firm. 
+                        I have spent the last three years as an investment banker, advising software companies on M&A and capital raise transactions. </p>
                         <p className="leading-6 mb-3">
-                        While working with these software companies, I grew increasingly curious about software development and began studying the subject in my free time. My part-time studies confirmed my passion for web development, so I recently quit my job in finance to develop my technical abilities full-time.</p>
+                        My experience with Navidar's technology clients fostered my interest in software development and prompted intensive self-study. 
+                        My part-time studies further confirmed my passion for software engineering, so in May I committed to my studies full-time.</p>
                         <p className="leading-6 mb-3">
                         I have completed several independent projects, which you can find below. I have also completed Harvard's CS50X, Harvard's CS50 Web Programming, and five Javascript-focused web development courses offered through freeCodeCamp.</p>
-                        <h4 className="text-xl mb-3 font-medium italic">I am actively seeking an entry-level software engineering position in web development. I believe that my professional and academic experience will enable me to become a successful software engineer.</h4> 
+                        <h4 className="text-xl mb-3 font-medium italic">I am actively seeking an entry-level software engineering position in web development. My professional and academic experience will enable me to become a successful software engineer.</h4> 
                         <button 
                             class="text-lg font-bold text-deep-green"
                             onClick={() => this.changeView()}
